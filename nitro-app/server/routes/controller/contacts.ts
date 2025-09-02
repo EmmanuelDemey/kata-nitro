@@ -1,7 +1,7 @@
 import { defineEventHandler } from "h3";
 import { Contact } from "../../models/contacts";
 
-var contacts : Contact[] = [
+ export var contacts : Contact[] = [
   {
     firstname: "Demey",
     lastname: "Manu",
