@@ -1,9 +1,10 @@
 import { defineEventHandler } from "h3";
+import { Contact } from "../../models/contacts";
 
-var contacts = [
+var contacts : Contact[] = [
   {
-    nom: "Demey",
-    prenom: "Manu",
+    firstname: "Demey",
+    lastname: "Manu",
     email: "demey.emmanuel@gmail.com",
     phone: "+33647474202",
   },
